@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "autoprefixer": "^10.4.7",
+    "nuxt": "3.0.0-rc.5",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.5"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.6.6",
+    "@heroicons/vue": "^1.0.6",
+    "@trpc/client": "^9.26.2",
+    "@trpc/server": "^9.26.2",
+    "@types/dedent": "^0.7.0",
+    "@vueuse/core": "^8.9.4",
+    "dedent": "^0.7.0",
+    "h3": "^0.7.10",
+    "ufo": "^0.8.5",
+    "vue-query": "^1.25.2",
+    "zod": "^3.17.9"
+  }
+}
